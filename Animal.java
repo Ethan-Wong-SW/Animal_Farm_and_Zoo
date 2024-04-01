@@ -16,7 +16,6 @@ abstract class Animal {
 
     public abstract String makeSound();
 
-    // override toString(), equals() and hashCode()
     @Override
     public String toString() {
         return getName();
